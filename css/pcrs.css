@@ -1,0 +1,139 @@
+body
+{
+    background-color: #f8f8f8;
+}
+
+footer
+{
+    background-color: #ffffff;
+    margin-top: 40px;
+} 
+
+.frames
+{
+    /*height: 400px;*/
+}
+
+.content
+{
+    /*height: 400px;*/
+}
+
+.cell
+{
+    padding: 0em 1em 0em 1em; 
+}
+
+/*图片*/
+#DesImage
+{
+    height: 400px;
+    width: 400px; 
+    vertical-align: middle;
+    align-self: center;
+    padding: 20px 0px 20px 10px;
+    
+}
+
+#Medi_record
+{
+    height: 400px;
+    width: 600px; 
+    vertical-align: middle;
+    align-self: center;
+    padding: 2em;
+}
+
+/*文字段落*/
+
+.head_title
+{    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.span_title
+{
+    display: inline-block;
+    overflow: hidden;
+}
+
+#name
+{
+    font-family: "STKaiti"; 
+    font-size: 3.125em;
+    padding-left: 5em;
+}
+
+#slogan
+{    
+    font-family: "LiHei Pro Medium ";
+    font-size: 1.5em;
+    padding-left: 22em;
+}
+
+.des_title
+{
+    font-size: 1.5em;
+    line-height: 200%;   
+}
+
+.description
+{
+    font-size: 1.25em;
+    text-indent: 2em; /*em是相对单位，2em即现在一个字大小的两倍*/
+    line-height: 200%;
+    padding-right: 10px;
+}
+
+.list li
+{
+    list-style-type: upper-roman;
+    font-size: 1.25em;
+    padding: 0em 0em 1em 0em;  
+}
+
+.timeline li
+{
+    font-size: 1.25em;
+}
+
+
+.foot_title
+{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/*侧边栏*/
+.hide
+{
+    display: none
+}
+.side_bar
+{
+    position: fixed;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 20px;
+    width: 96px;
+    z-index: 10000;
+}
+.side_bar li
+{
+    margin: 3px 3px;
+}
+.side_bar a 
+{
+    display: inline-block;
+    padding: 10px 10px;
+    line-height: 14px;
+    color: #000000;
+    background-color: #ffffff;
+}
+.side_bar a:hover 
+{
+    color: #ffffff;
+    background-color: #59cde2;
+}
+
